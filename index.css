@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+* {
+  text-align: center;
+  align-items: center;
+}
+h1 {
+  color: white;
+  font-family: 'Nerko One', cursive;
+  -webkit-text-stroke: 2px black; /* width and color */
+}
+p {
+  text-align: left;
+}
+a {
+  font-family: 'Nerko One', cursive;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #ffffff0c;
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 1s;
+  border-radius: 10px;
+}
+a:hover {
+  letter-spacing: 3px;
+  background-color: var(--clr);
+  color: var(--clr);
+  box-shadow: 0 0 40px var(--clr);
+}
+a::before {
+  content: '';
+  position: absolute;
+  inset: 5px;
+  background-color: #060c21;
+  border-radius: 10px;
+}
+a span {
+  position: relative;
+  z-index: 1;
+}
+a i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+a i::before {
+  content: '';
+  position: absolute;
+  border: 3px solid var(--clr);
+  width: 10px;
+  left: 80%;
+  top: 0;
+  transform: translateX(-50%);
+  transition: 4s;
+}
+a:hover i::before {
+  width: 20px;
+  left: 20%;
+  border: 3px solid #060c21;
+}
+
+a i::after {
+  content: '';
+  position: absolute;
+  border: 3px solid var(--clr);
+  width: 10px;
+  left: 20%;
+  bottom: 0;
+  transition: 4s;
+  transform: translateX(-50%);
+}
+a:hover i::after {
+  width: 20px;
+  left: 80%;
+  border: 3px solid #060c21;
+}
