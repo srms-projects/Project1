@@ -10,9 +10,29 @@
     <a style="--clr:#00FF00" href="/HomoErectus.html"><span>Homo Erectus</span><i></i></a>
     <div class="pHolder">
       <br>
-      <p id="paragraph1">&emsp;Have you ever thought about the civilizations that came before us?</p>
-      
+      <p id="paragraph1" class="reveal">&emsp;Have you ever thought about the civilizations that came before us?</p>
     </div>
+    <script type="text/javascript">
+      window.addEventListener('scroll', reveal);
+  
+      function reveal(){
+        var reveals = document.querySelectorAll('.reveal');
+  
+        for(var i = 0; i < reveals.length; i++){
+  
+          var windowheight = window.innerHeight;
+          var revealtop = reveals[i].getBoundingClientRect().top;
+          var revealpoint = 150;
+  
+          if(revealtop < windowheight - revealpoint){
+            reveals[i].classList.add('active');
+          }
+          else{
+            reveals[i].classList.remove('active');
+          }
+        }
+      }
+      </script>
     
   </body>
 </html>
