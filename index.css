@@ -86,7 +86,7 @@ a:hover i::after {
 .pHolder {
   background-color: rgb(201, 201, 201);
   height: 300px;
-  width: 500px;
+  width: 75%;
   align-items: center;
   margin: auto;
 }
