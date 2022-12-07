@@ -4,11 +4,6 @@
   align-items: center;
 }
 
-body {
-  background-image: url("http://humanorigins.si.edu/sites/default/files/styles/grid_thumbnail/public/neanderthalensis_JG_Recon_Head_CC_3qtr_lt_l.jpg.webp?itok=qtcnTy8R");
-  background-repeat: repeat;
-}
-
 h1 {
   color: white;
   font-family: 'Nerko One', cursive;
