@@ -83,3 +83,7 @@ a:hover i::after {
   left: 80%;
   border: 3px solid #060c21;
 }
+#pHolder {
+  background-color: white;
+  height: 300px
+}
