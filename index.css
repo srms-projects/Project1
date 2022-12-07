@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+body {
+  background-image: linear-gradient(rgb(120, 120, 255),rgb(100, 100, 255));
+}
+
 h1 {
   color: white;
   font-family: 'Nerko One', cursive;
@@ -79,7 +83,7 @@ a:hover i::after {
   border: 3px solid #060c21;
 }
 .pHolder {
-  background-color: rgb(201, 201, 201);
+  background-color: rgb(36, 36, 36);
   height: 600px;
   width: 75%;
   align-items: center;
