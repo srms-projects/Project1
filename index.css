@@ -84,4 +84,5 @@ a:hover i::after {
   width: 75%;
   align-items: center;
   margin: auto;
+  padding: 10px;
 }
