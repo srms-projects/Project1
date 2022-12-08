@@ -104,3 +104,8 @@ a:hover i::after {
   transform: translateY(0px);
   opacity: 1;
 }
+
+#timeline{
+  width:250px;
+  height: 175px;
+}
