@@ -5,7 +5,8 @@
 }
 
 body {
-  background-image: linear-gradient(rgb(120, 120, 255),rgb(100, 100, 255));
+  background: linear-gradient(rgb(120, 120, 255),rgb(100, 100, 255));
+  background-image: url("snow-transparent.gif");
 }
 
 h1,h2,h3,h4,h5,h6 {
