@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <h1>Neanderthals</h1> 
+    <a style="--clr:#00FF00" href="/HomoErectus.html"><span>Homo Erectus</span><i></i></a>
+    <a style="--clr:#0FFFF0" href="/"><span>Neanderthals</span><i></i></a>
+    <div class="pHolder">
+      <br>
+    </div>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTSTYEWTAYe5cgbG-jHT2R0NYbqGfB-wszdRr_aOX2dU-TorWXQiAz3rpujozvVWGrYZZGAIq-_aWLa/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <script type="text/javascript">
+      reveal();
+      window.addEventListener('scroll', reveal);
+  
+      function reveal(){
+        var reveals = document.querySelectorAll('.reveal');
+  
+        for(var i = 0; i < reveals.length; i++){
+  
+          var windowheight = window.innerHeight;
+          var revealtop = reveals[i].getBoundingClientRect().top;
+          var revealpoint = 100;
+  
+          if(revealtop < windowheight - revealpoint){
+            reveals[i].classList.add('active');
+          }
+          else{
+            reveals[i].classList.remove('active');
+          }
+        }
+      }
+      </script>
+    
+  </body>
+</html>
