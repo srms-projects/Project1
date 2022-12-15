@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function(){
                     "value": "#ffffff"
                 },
                 "opacity": {
-                    "value": 0.7,
+                    "value": 0.4,
                     "random": false,
                     "anim": {
                         "enable": false
